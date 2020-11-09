@@ -29,3 +29,6 @@ Route::get('/service_public_relations.html', [App\Http\Controllers\HomeControlle
 Route::get('/service_branding_promotion.html', [App\Http\Controllers\HomeController::class, 'service_branding_promotion'])->name('service_branding_promotion');
 Route::get('/service_business_Advisory.html', [App\Http\Controllers\HomeController::class, 'service_business_Advisory'])->name('service_business_Advisory');
 Route::get('/myapps.html', [App\Http\Controllers\HomeController::class, 'myapps'])->name('myapps');
+
+Route::get('contact-us', [App\Http\Controllers\ContactController::class, 'contactUS']);
+Route::post('contact-us', [App\Http\Controllers\ContactController::class, 'contactSaveData'])->name('contactus.store');

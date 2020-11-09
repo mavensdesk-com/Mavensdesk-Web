@@ -355,25 +355,27 @@
                     <h1 class="display-2 display-2--light">We’d love to hear from you</h1>
                 </div>
             </div>
+            <form action="{{ route('contactus.store') }}" method="POST" enctype="multipart/form-data">
+            @csrf
             <div class="row contact-row contact-content">
                 <div class="contact-primary">
                     <h3 class="h6">Send Us A Message</h3>
                     <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
                         <fieldset>
                             <div class="form-field">
-                                <input name="contactName" type="text" id="contactName" placeholder="Your Name" value=""
+                                <input name="name" type="text" id="contactName" placeholder="Your Name"
                                     minlength="2" required="" aria-required="true" class="full-width">
                             </div>
                             <div class="form-field">
-                                <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value=""
+                                <input name="email" type="email" id="contactEmail" placeholder="Your Email" 
                                     required="" aria-required="true" class="full-width">
                             </div>
                             <div class="form-field">
-                                <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""
+                                <input name="subject" type="text" id="contactSubject" placeholder="Subject" 
                                     class="full-width">
                             </div>
                             <div class="form-field">
-                                <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10"
+                                <textarea name="message" id="contactMessage" placeholder="Your Message" rows="10"
                                     cols="50" required="" aria-required="true" class="full-width"></textarea>
                             </div>
                             <div class="form-field">
@@ -434,6 +436,7 @@
                     </div>
                 </div>
             </div>
+            </form>
         </div>
     </section>
     <!-- =====================End Contact Section================= -->
