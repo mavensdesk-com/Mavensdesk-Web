@@ -28,11 +28,7 @@ class ContactController extends Controller
          'message' => 'required',
     ]);
 
-       $ContactUS = new ContactUS();
-       $ContactUS->name = $request->input('name');
-       $ContactUS->email = $request->input('email');
-       $ContactUS->subject = $request->input('subject');
-       $messages = $ContactUS->message = $request->input('message');
+       $messages = $request->input('message');
              $data = [
                 'name' => $request->input('name'),
                 'email' => $request->input('email'),
@@ -52,8 +48,6 @@ class ContactController extends Controller
             $m->from('no-reply@mavensdesk.com', 'Mavensdesk contact us');
             $m->cc('info@mavensdesk.com','new client');
             });
-
-         $ContactUS->save();
         return back()->with('success','You have successfully upload file.');
    
    
