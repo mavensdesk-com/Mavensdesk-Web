@@ -10,10 +10,10 @@
                             <img src="img/icon/p-icon-1.png" alt="">
                         </div>
                         <div class="media-body">
-                            <a href="/service_web_app_development.html">
-                                <h4>Web & App Development</h4>
+                            <a href="/application_services">
+                                <h4>Application Services</h4>
                             </a>
-                            <p>Build your brand and your business through intelligent and attractive web design that
+                            <p>Build your brand and your business through intelligent and attractive web & app design that
                                 works to create a memorable customer experience.</p>
                         </div>
                     </div>
@@ -24,8 +24,8 @@
                             <img src="img/icon/p-icon-2.png" alt="">
                         </div>
                         <div class="media-body">
-                            <a href="/service_seo_digital_marketing.html">
-                                <h4>SEO & Digital Marketing</h4>
+                            <a href="/myapps">
+                                <h4>Products</h4>
                             </a>
                             <p>We investigate the business objectives, marketing technology, and marketing data and
                                 support businesses in establishing an effective marketing strategy.</p>
@@ -35,25 +35,11 @@
                 <div class="p_item">
                     <div class="media">
                         <div class="media-left">
-                            <img src="img/icon/p-icon-3.png" alt="">
-                        </div>
-                        <div class="media-body">
-                            <a href="/service_traning_skills_development.html">
-                                <h4>Training and Skill Development</h4>
-                            </a>
-                            <p>Training is crucial for anyone to expertise in a particular field. Skill Development
-                                and Entrepreneurship development to raise up your teams.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="p_item">
-                    <div class="media">
-                        <div class="media-left">
                             <img src="img/icon/p-icon-6.png" alt="">
                         </div>
                         <div class="media-body">
-                            <a href="/service_oracle_erp_consultancy.html">
-                                <h4>Oracle ERP Consulting Services</h4>
+                            <a href="/consulting_services">
+                                <h4>Consulting Services</h4>
                             </a>
                             <p>We help organizations conquer business challenges & operate more efficiently. Our
                                 core areas of expertise include Oracle E-Business Suite, Oracle Projects, SCM.</p>
@@ -63,23 +49,10 @@
                 <div class="p_item">
                     <div class="media">
                         <div class="media-left">
-                            <img src="img/icon/p-icon-1.png" alt="">
-                        </div>
-                        <div class="media-body">
-                            <a href="/service_recruitment_application.html">
-                                <h4>Recruitment Process</h4>
-                            </a>
-                            <p>Our services are comprehensive allows you to focus on your core activity and save time and money on the recruitment process.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="p_item">
-                    <div class="media">
-                        <div class="media-left">
                             <img src="img/icon/p-icon-5.png" alt="">
                         </div>
                         <div class="media-body">
-                            <a href="/service_public_relations.html">
+                            <a href="/public_relations_services">
                                 <h4>Public Relations</h4>
                             </a>
                             <p>Our public relations firm helps startups and growing businesses get the exposure they
@@ -88,6 +61,62 @@
                     </div>
                 </div>
                 <div class="p_item">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="img/icon/p-icon-2.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="/digital_services">
+                                <h4>Digital Experience</h4>
+                            </a>
+                            <p>We investigate the business objectives, marketing technology, and marketing data and
+                                support businesses in establishing an effective marketing strategy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p_item">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="img/icon/p-icon-4.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="/business_Advisory_services">
+                                <h4>Business Advisory</h4>
+                            </a>
+                            <p>Our team develops offers adaptive, innovative and comprehensive solutions for
+                                specific client business needs that may not require the expression of opinions based
+                                on professional standards.</p>
+                        </div>
+                    </div>
+                </div>  
+                <div class="p_item">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="img/icon/p-icon-3.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="/training_services">
+                                <h4>Training Services</h4>
+                            </a>
+                            <p>Training is crucial for anyone to expertise in a particular field. Skill Development
+                                and Entrepreneurship development to raise up your teams.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p_item">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="img/icon/p-icon-1.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="/recruitment_services">
+                                <h4>Recruitment Services</h4>
+                            </a>
+                            <p>Our services are comprehensive allows you to focus on your core activity and save time and money on the recruitment process.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="p_item">
                     <div class="media">
                         <div class="media-left">
                             <img src="img/icon/p-icon-4.png" alt="">
@@ -100,22 +129,7 @@
                                 for you.</p>
                         </div>
                     </div>
-                </div>
-                <div class="p_item">
-                    <div class="media">
-                        <div class="media-left">
-                            <img src="img/icon/p-icon-4.png" alt="">
-                        </div>
-                        <div class="media-body">
-                            <a href="/service_business_Advisory.html">
-                                <h4>Business Advisory</h4>
-                            </a>
-                            <p>Our team develops offers adaptive, innovative and comprehensive solutions for
-                                specific client business needs that may not require the expression of opinions based
-                                on professional standards.</p>
-                        </div>
-                    </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>

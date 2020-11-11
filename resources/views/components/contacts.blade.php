@@ -71,6 +71,7 @@
                             <h5>Other location</h5>
                             <p>UK - W2 1ns 61 Praed Street, London</p>
                             <p>Dubai - Street Box No. 6872, Dubai, Emirates </p>
+                            <p>Bengaluru - Sulthangunta, Shivaji Nagar, Karnataka</p>
                         </div>
                         <ul class="contact-social">
 

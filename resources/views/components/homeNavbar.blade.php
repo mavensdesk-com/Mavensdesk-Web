@@ -19,11 +19,11 @@
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#feature">Services</a></li>
                 <li><a href="#partners">Partners</a></li>
-                <li><a href="#clients">Clients</a></li>
+                <li><a href="/clients">Clients</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li class="get_free_btn"><a href="/myapps.html">My Apps</a></li>
+                <li class="get_free_btn"><a href="/myapps">My Apps</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </nav>

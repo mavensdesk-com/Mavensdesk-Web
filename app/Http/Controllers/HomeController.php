@@ -22,46 +22,50 @@ class HomeController extends Controller
         return view('index');
     }
     
-    public function service_web_app_development()
+    public function application_services()
     {
-        return view('service_web_app_development');
+        return view('application_services');
     }
     
-    public function service_seo_digital_marketing()
+    public function digital_services()
     {
-        return view('service_seo_digital_marketing');
+        return view('digital_services');
     }
     
-    public function service_traning_skills_development()
+    public function training_services()
     {
-        return view('service_traning_skills_development');
+        return view('training_services');
     }
     
-    public function service_recruitment_application()
+    public function recruitment_services()
     {
-        return view('service_recruitment_application');
+        return view('recruitment_services');
     }
     
-    public function service_oracle_erp_consultancy()
+    public function consulting_services()
     {
-        return view('service_oracle_erp_consultancy');
+        return view('consulting_services');
     }
     
-    public function service_public_relations()
+    public function public_relations_services()
     {
-        return view('service_public_relations');
+        return view('public_relations_services');
     }
     
-    public function service_branding_promotion()
+    public function branding_promotion_services()
     {
-        return view('service_branding_promotion');
+        return view('branding_promotion_services');
     }
     
-    public function service_business_Advisory()
+    public function business_Advisory_services()
     {
-        return view('service_business_Advisory');
+        return view('business_Advisory_services');
     }    
 
+    public function clients()
+    {
+        return view('clients');
+    }
     public function myapps()
     {
         return view('myapps');

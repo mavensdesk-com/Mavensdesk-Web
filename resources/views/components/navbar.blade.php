@@ -21,22 +21,22 @@
                         Services
                     </a>
                     <div class="dropdown-menu" aria-labelledby="services">
-                        <a class="dropdown-item" href="/service_web_app_development.html">Web & App Development</a>
-                        <a class="dropdown-item" href="/service_seo_digital_marketing.html">SEO & Digital Marketing</a>
-                        <a class="dropdown-item" href="/service_traning_skills_development.html">Training and Skill Development</a>
-                        <a class="dropdown-item" href="/service_oracle_erp_consultancy.html">Oracle ERP Consulting Services</a>
-                        <a class="dropdown-item" href="/service_recruitment_application.html">Recruitment Process</a>
-                        <a class="dropdown-item" href="/service_public_relations.html">Public Relations</a>
-                        <a class="dropdown-item" href="/service_branding_promotion.html">Product branding and Promotion</a>
-                        <a class="dropdown-item" href="/service_business_Advisory.html">Business Advisory</a>
+                        <a class="dropdown-item" href="/application_services">Application Services</a>
+                        <a class="dropdown-item" href="/consulting_services">Consulting Services</a>
+                        <a class="dropdown-item" href="/public_relations_services">Public Relations</a>
+                        <a class="dropdown-item" href="/digital_services">Digital Experience</a>
+                        <a class="dropdown-item" href="/business_Advisory_services">Business Advisory</a>
+                        <a class="dropdown-item" href="/training_services">Training Services</a>
+                        <a class="dropdown-item" href="/recruitment_services">Recruitment Services</a>
+                        <!-- <a class="dropdown-item" href="/branding_promotion_services">Product branding and Promotion</a> -->
                     </div>
                 </li>
                 <li><a href="/index.html#partners">Partners</a></li>
-                <li><a href="/index.html#clients">Clients</a></li>
+                <li><a href="/clients">Clients</a></li>
                 <li><a href="/index.html#contact">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li class="get_free_btn"><a href="/myapps.html">My Apps</a></li>
+                <li class="get_free_btn"><a href="/myapps">My Apps</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </nav>
