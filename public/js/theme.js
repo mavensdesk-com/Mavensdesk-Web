@@ -717,9 +717,8 @@
             $('.partners_logo_slider').owlCarousel({
                 loop:false,
                 margin: 100,
-                items: 5,
                 nav:false,
-                autoplay: false,
+                autoplay: true,
                 smartSpeed: 1500,
                 dots: true, 
                 responsiveClass: true,
@@ -731,10 +730,10 @@
                         items: 2,
                     },
                     600: {
-                        items: 4,
+                        items: 2,
                     },
                     992: {
-                        items: 5,
+                        items: 3,
                     }
                 }
             })

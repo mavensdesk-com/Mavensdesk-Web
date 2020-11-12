@@ -13,7 +13,7 @@
                             <a href="/application_services">
                                 <h4>Application Services</h4>
                             </a>
-                            <p>Build your brand and your business through intelligent and attractive web & app design that
+                            <p>Build your brand and business through intelligent and attractive web & app design that
                                 works to create a memorable customer experience.</p>
                         </div>
                     </div>
@@ -27,8 +27,7 @@
                             <a href="/myapps">
                                 <h4>Products</h4>
                             </a>
-                            <p>We investigate the business objectives, marketing technology, and marketing data and
-                                support businesses in establishing an effective marketing strategy.</p>
+                            <p>Choose the best features and functionality to showcase your products and run your business — on a platform that can scale with you instead of holding you back.</p>
                         </div>
                     </div>
                 </div>
@@ -41,8 +40,8 @@
                             <a href="/consulting_services">
                                 <h4>Consulting Services</h4>
                             </a>
-                            <p>We help organizations conquer business challenges & operate more efficiently. Our
-                                core areas of expertise include Oracle E-Business Suite, Oracle Projects, SCM.</p>
+                            <p>We help organizations to conquer business challenges & operate more efficiently. Our
+                                core areas of expertise include Oracle E-Business Suite, Oracle Projects, SCM, etc.</p>
                         </div>
                     </div>
                 </div>
@@ -55,7 +54,7 @@
                             <a href="/public_relations_services">
                                 <h4>Public Relations</h4>
                             </a>
-                            <p>Our public relations firm helps startups and growing businesses get the exposure they
+                            <p>Our public relations firm helps startups and growing businesses to get the exposure they
                                 need with fully integrated digital PR and communications services.</p>
                         </div>
                     </div>

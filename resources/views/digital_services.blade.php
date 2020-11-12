@@ -35,7 +35,7 @@
                 <div class="g_right_side">
                     <h5>SEO & Digital Marketing</h5>
                     <h4>How we help</h4>
-                    <p>Our search engine optimization services are unique to the industry with verifiable results. As we continually keep up with the fluctuating algorithm of Google. We’ve positioned ourselves as the gold standard in search engine optimization. We will help youtube modify your website in such a way that it is more visible on a search engine in its organic search result. We use Goggle adwords, Goggle analytics for analytics.</p>
+                    <p>Our search engine optimization services are unique to the industry with verifiable results. As we continually keep up with the fluctuating algorithm of Google. We’ve positioned ourselves as the gold standard in search engine optimization. We will help youtube modify your website in such a way that it is more visible on a search engine in its organic search result. We use Goggle adwords, Goggle analytics, etc for analytics.</p>
                     <h3></h3>
                     <a class="pre_or_btn" href="/index.html#contact">Reach Us</a>
                 </div>

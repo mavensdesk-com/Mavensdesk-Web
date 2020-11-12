@@ -4640,6 +4640,11 @@ iframe {
   text-align: justify;
 }
 
+.gd_feature_inner .gd_f_text ul{
+  list-style-type: disc;
+  padding: 15px;
+}
+
 .gd_feature_inner .gd_f_text a {
   font-size: 14px;
   color: #272727;

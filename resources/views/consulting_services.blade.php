@@ -58,13 +58,14 @@
             <div class="col-sm-6">
                 <div class="gd_f_text">
                     <h4>Our Expertise</h4>
-                    <p>Application Maintenance and Support Services<br>
-                        Oracle E-Business Suite R12.2 Upgrades<br>
-                        Implementing Oracle E-Business Suite<br>
-                        Oracle EBS Application Performance Monitoring<br>
-                        Extending and Enhancing Oracle AME to Oracle EBS<br>
-                        Oracle EBS Platform Migrations and Consolidations<br>
-                    </p>
+                    <ul>
+                        <li>Application Maintenance and Support Services</li>
+                        <li>Oracle E-Business Suite R12.2 Upgrades</li>
+                        <li>Implementing Oracle E-Business Suite</li>
+                        <li>Oracle EBS Application Performance Monitoring</li>
+                        <li>Extending and Enhancing Oracle AME to Oracle EBS</li>
+                        <li>Oracle EBS Platform Migrations and Consolidations</li>
+                    </ul>
                 </div>
             </div>
         </div>

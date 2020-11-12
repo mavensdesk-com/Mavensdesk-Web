@@ -52,11 +52,11 @@
                 </div>
                 <div class="contact-secondary">
                     <div class="contact-info">
-                        <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+                        <!-- <h3 class="h6 hide-on-fullwidth">Contact Info</h3> -->
                         <div class="cinfo">
                             <h5>Where to Find Us</h5>
                             <p><a target="_blank" href="https://goo.gl/maps/Q243pigUjVSqNCzM8">
-                                    plot no-1604, Kalinganagar-3<br>
+                                    #1604, Kalinganagar-3<br>
                                     Odisha, Bhubaneswar-751003</a>
                             </p>
                         </div>
@@ -69,6 +69,7 @@
                         </div>
                         <div class="cinfo">
                             <h5>Other location</h5>
+                            <p>US - W 16th St, Chicago</p>
                             <p>UK - W2 1ns 61 Praed Street, London</p>
                             <p>Dubai - Street Box No. 6872, Dubai, Emirates </p>
                             <p>Bengaluru - Sulthangunta, Shivaji Nagar, Karnataka</p>

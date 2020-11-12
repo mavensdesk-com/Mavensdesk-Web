@@ -63,13 +63,14 @@
             <div class="col-sm-6">
                 <div class="gd_f_text">
                     <h4>Six set of service solutions includes:</h4>
-                    <p>Finance function resourcing and outsourcing<br>
-                        Accounting advisory services<br>
-                        One stop liaison service to support local business start-ups<br>
-                        Specialised services to financial institutions<br>
-                        Global IFRS and offerings services (GIOS)<br>
-                        Real estate advisory services
-                    </p>
+                    <ul>
+                        <li>Finance function resourcing and outsourcing</li>    
+                        <li>Accounting advisory services</li>    
+                        <li>One stop liaison service to support local business start-ups</li>    
+                        <li>Specialised services to financial institutions</li>    
+                        <li>Global IFRS and offerings services (GIOS)</li>    
+                        <li>Real estate advisory services</li>    
+                    </ul>
                 </div>
             </div>
         </div>

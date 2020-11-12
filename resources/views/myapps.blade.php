@@ -38,7 +38,7 @@
                 <div class="c-card">
                     <div class="c-header">
                         <img src="img/icon/home-run.svg" alt="bda-housing-icon">
-                        <h1>HOUSING</h1>
+                        <h1>SOCIETY</h1>
                     </div>
                     <div class="c-body">Manage your building funds with this app and also to regnerate E-receipts.</div>
                     <a href="http://myapps.mavensdesk.com/" class="btn">VIEW APP</a>

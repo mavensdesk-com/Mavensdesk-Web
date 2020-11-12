@@ -55,16 +55,13 @@
             <div class="power_right_content">
                 <div class="power_right_content_inner">
                     <h3 class="single_title">About Us</h3>
-                    <p>Mavensdesk provides services other than consultancy services that help you grow your
-                        company better. This requires embedding digital, analytics, and designs into core processes
+                    <p>Mavensdesk provides services other than consultancy services that help you grow your company better. This requires embedding digital, analytics, and designs into core processes
                         and mind-sets, and building capabilities that help organisations and people to thrive in an
                         ever-changing context. We help businesses to efficiently manage their business, improve performance and reduce costs.
                     </p>
                     <h3 class="single_title">Our People</h3>
                     <p>Our firm is designed to operate as one - a single global partnership united by a strong set
-                        of morals and values, including a deep commitment to diversity.</br>
-                        </br>
-                        We take a consistent approach to recruiting and skill development regardless of where our
+                        of morals and values, including a deep commitment to diversity. We take a consistent approach to recruiting and skill development regardless of where our
                         people are located, so that we can quickly deliver the right team, with the right experience
                         and expertise, to every client, anywhere in the world. </p>
                 </div>
