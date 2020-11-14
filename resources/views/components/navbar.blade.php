@@ -32,7 +32,7 @@
                     </div>
                 </li>
                 <li><a href="/index.html#partners">Partners</a></li>
-                <li><a href="/clients">Clients</a></li>
+                <li><a href="/clientTele">ClientTele</a></li>
                 <li><a href="/index.html#contact">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">

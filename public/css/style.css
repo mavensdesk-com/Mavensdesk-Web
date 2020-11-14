@@ -4629,7 +4629,7 @@ iframe {
   padding-bottom: 15px;
 }
 
-.gd_feature_inner .gd_f_text p {
+.gd_feature_inner .gd_f_text p,.gd_feature_inner .gd_f_text li a{
   max-width: 430px;
   font-size: 14px;
   line-height: 24px;

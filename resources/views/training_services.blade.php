@@ -68,7 +68,27 @@
                 </div>
             </div>
         </div>
+        <div class="row gd_feature_inner right row-flex">            
+            <div class="col-sm-6">
+                <div class="gd_f_text">
+                    <h4>Make you better and accurate</h4>
+                    <ul>
+                        <li><a target="_blank" href="https://tutorontech.world/category.php?category=Oracle%20Courses">Oracle Fusion SCM training and Support</a></li>
+                        <li><a target="_blank" href="https://tutorontech.world/category.php?category=Oracle%20Courses">Oracle demantra training and support</a></li>
+                        <li><a target="_blank" href="https://tutorontech.world/category.php?category=Oracle%20Courses">Oracle logfire training and support </a></li>
+                        <li><a target="_blank" href="https://tutorontech.world/category.php?category=Oracle%20Courses">Oracle Process Manufacturing training</a></li>
+                    </ul>  
+                </div>
+            </div>  
+            <div class="col-sm-6">
+                <div class="gd_f_img">
+                    <img src="img/services/training-3.svg" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+
 <!--================End Gadget Feature Area =================-->
+@include('components.training')
 @endsection

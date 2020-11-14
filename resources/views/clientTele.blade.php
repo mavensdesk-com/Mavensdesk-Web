@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Our Clients')
+@section('title', 'Our ClientTele')
 
 @section('navbar')
 @include('components.navbar')
@@ -12,7 +12,7 @@
     <div class="container">
         <div class="gadget_banner_inner">
             <div class="gadget_text">
-                <h2>Our Clients</h2>
+                <h2>Our ClientTele</h2>
                 <h6>We love working with our clients and they are most valuable for us.</h6>
                 <a class="order_btn" href="/index.html#contact">Contact Us</a>
             </div>
@@ -21,5 +21,5 @@
 </section>
 <!--================End Gadget Banner Area =================-->
 
-@include('components.clients')
+@include('components.clientTele')
 @endsection

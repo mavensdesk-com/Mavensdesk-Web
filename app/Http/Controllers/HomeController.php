@@ -62,9 +62,9 @@ class HomeController extends Controller
         return view('business_Advisory_services');
     }    
 
-    public function clients()
+    public function clientTele()
     {
-        return view('clients');
+        return view('clientTele');
     }
     public function myapps()
     {

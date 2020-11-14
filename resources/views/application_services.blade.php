@@ -68,7 +68,40 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div>        
+        <div class="row gd_feature_inner row-flex">
+                <div class="col-sm-6">
+                    <div class="gd_f_text">
+                        <h4>We are used too</h4>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <ul>
+                                    <li>Magneto</li>
+                                    <li>Wordpress </li>
+                                    <li>Joomla </li>
+                                    <li>Laravel</li>
+                                    <li>Nodejs</li>
+                                </ul>
+
+                            </div>
+                            <div class="col-sm-4">                                
+                                <ul>
+                                    <li>React js</li>
+                                    <li>Angular js</li>
+                                    <li>Hybrid App</li>
+                                    <li>Android and IOS </li>
+                                    <li>Java developers</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="gd_f_img">
+                        <img src="img/services/web-2.svg" alt="">
+                    </div>
+                </div>
+            </div>
     </div>
 </section>
 

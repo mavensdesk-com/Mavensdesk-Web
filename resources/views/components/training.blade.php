@@ -1,19 +1,19 @@
 <!--================partners Logo Area =================-->
 <section class="partners_logo_area" id="clients" style="background-color: #fff;">
-    <!-- <div class="container">
+    <div class="container">
         <div class="main_title">
-            <h2>Our <span class="colored">Clients</span></h2>
-            <p>We love working with our clients...</p>
+            <h2>Training <span class="colored">Outsourcing</span></h2>
+            <p>We do provide training outsourcing to the following companies</p>
         </div>
-    </div> -->
+    </div>
 
     <div class="partners_logo_slider owl-carousel">
-        <div class="item">
+        <!-- <div class="item">
             <img src="img/clients/atos.png" alt="Atos">
         </div>
         <div class="item">
             <img src="img/clients/aurotech.png" alt="Aurotech">
-        </div>
+        </div> -->
         <div class="item">
             <img src="img/clients/hp.png" alt="Hp">
         </div>
@@ -23,13 +23,13 @@
         <div class="item">
             <img src="img/clients/Accenture.png" alt="Accenture">
         </div>
-        <div class="item">
+        <!-- <div class="item">
             <img src="img/clients/Azinova.png" alt="Azinova">
-        </div>
+        </div> -->
         <div class="item">
             <img src="img/clients/IBM.png" alt="IBM">
         </div>
-        <div class="item">
+        <!-- <div class="item">
             <img src="img/clients/DELL.png" alt="DELL">
         </div>
         <div class="item">
@@ -43,7 +43,7 @@
         </div>
         <div class="item">
             <img src="img/clients/Lamprell.png" alt="Lamprell">
-        </div>
+        </div> -->
     </div>
 </section>
 <!--================End partners Logo Area =================-->
