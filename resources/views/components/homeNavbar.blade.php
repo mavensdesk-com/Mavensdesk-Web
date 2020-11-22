@@ -19,7 +19,7 @@
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#feature">Services</a></li>
                 <li><a href="#partners">Partners</a></li>
-                <li><a href="/clientTele">ClientTele</a></li>
+                <li><a href="/clienTele">ClienTele</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">

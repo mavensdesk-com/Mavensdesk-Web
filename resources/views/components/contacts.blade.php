@@ -52,7 +52,7 @@
                 </div>
                 <div class="contact-secondary">
                     <div class="contact-info">
-                        <!-- <h3 class="h6 hide-on-fullwidth">Contact Info</h3> -->
+                        <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
                         <div class="cinfo">
                             <h5>Where to Find Us</h5>
                             <p><a target="_blank" href="https://goo.gl/maps/Q243pigUjVSqNCzM8">
@@ -64,15 +64,9 @@
                             <h5>Email Us At</h5>
                             <p>
                                 For queries: <a href="mailto: info@mavensdesk.com">info@mavensdesk.com</a><br>
-                                For sales: <a href="mailto: salesindia@mavensdesk.com">salesindia@mavensdesk.com</a>
+                                For sales: <a href="mailto: salesindia@mavensdesk.com">salesindia@mavensdesk.com</a><br/>
+                                 <a href="mailto: salesemea@mavendsdesk.com">salesemea@mavendsdesk.com</a>
                             </p>
-                        </div>
-                        <div class="cinfo">
-                            <h5>Other location</h5>
-                            <p>US - W 16th St, Chicago</p>
-                            <p>UK - W2 1ns 61 Praed Street, London</p>
-                            <p>Dubai - Street Box No. 6872, Dubai, Emirates </p>
-                            <p>Bengaluru - Sulthangunta, Shivaji Nagar, Karnataka</p>
                         </div>
                         <ul class="contact-social">
 

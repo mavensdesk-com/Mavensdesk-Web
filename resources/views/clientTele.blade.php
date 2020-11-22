@@ -12,7 +12,7 @@
     <div class="container">
         <div class="gadget_banner_inner">
             <div class="gadget_text">
-                <h2>Our ClientTele</h2>
+                <h2>Our ClienTele</h2>
                 <h6>We love working with our clients and they are most valuable for us.</h6>
                 <a class="order_btn" href="/index.html#contact">Contact Us</a>
             </div>

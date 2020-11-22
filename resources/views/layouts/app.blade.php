@@ -8,7 +8,7 @@
 
     <link rel="icon" href="img/title_logo.png" type="image/x-icon" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title> @yield('title') | Mavensdesk Technology Services</title>
+    <title> @yield('title') | Mavensdesk Consultancy Services</title>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <meta name="it services company it services and solutions it services and consulting it services agreement
         it services and products it services and consulting companies it services and support it services and solutions company it services advertisement a-it software services a tech it services a to z it servicesit services business it services business model
@@ -72,8 +72,6 @@
                                 <li><a href="#">Help & Support</a></li>
                                 <li><a href="#">Getting Started FAQ</a></li>
                                 <li><a href="#contact">Contact Us</a></li>
-                                <li><a href="#">Sign Up</a></li>
-                                <li><a href="#">Sign In</a></li>
                             </ul>
                         </aside>
                     </div>

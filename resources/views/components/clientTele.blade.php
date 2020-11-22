@@ -14,9 +14,9 @@
         <div class="item">
             <img src="img/clients/otl.png" alt="Otl">
         </div>
-        <div class="item">
+        <!-- <div class="item">
             <img src="img/clients/ilac.png" alt="ILAC">
-        </div>
+        </div> -->
     </div>
 </section>
 <!--================End partners Logo Area =================-->

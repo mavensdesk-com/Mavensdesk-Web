@@ -14368,7 +14368,7 @@ button.btn--primary {
 /* .partners_logo_area .main_title {
   padding-bottom: 35px;
 } */
-.partners_logo_area .main_title p{
+.partners_logo_area .main_title p,.location .main_title p{
   max-width: 700px;
   margin: auto;
   font-size: 15px;
@@ -14377,7 +14377,7 @@ button.btn--primary {
   font-family: "Heebo", sans-serif;
   letter-spacing: .28px;
 }
-.partners_logo_area .main_title h2{
+.partners_logo_area .main_title h2,.location .main_title h2{
   font-size: 30px;
   color: #121921;
   font-family: "Heebo", sans-serif;
@@ -14386,7 +14386,7 @@ button.btn--primary {
   margin-bottom: 20px;
   text-transform: none;
 }
-.partners_logo_area .main_title h2 .colored{
+.partners_logo_area .main_title h2 .colored,.location .main_title h2 .colored{
   color: #d80aaa;
 }
 .owl-dots .owl-dot.active{
@@ -14452,7 +14452,29 @@ button.btn--primary {
     display: flex;
     flex-wrap: wrap;
 }
-
+.location{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.location .row{
+  margin-top: 50px;
+}
+.country-card{
+  padding: 15px;
+}
+.country-icon{
+  width: 50px;
+  height: 50px;
+}
+.country-card p{
+  margin-top: 20px;
+  text-align: center;
+}
+.justify-align-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 500px ){
     .c-card{
         padding: 60px 40px 120px 40px;

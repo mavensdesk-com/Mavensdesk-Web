@@ -80,17 +80,17 @@
                                     <li>Wordpress </li>
                                     <li>Joomla </li>
                                     <li>Laravel</li>
-                                    <li>Nodejs</li>
+                                    <li>Node.js</li>
                                 </ul>
 
                             </div>
                             <div class="col-sm-4">                                
                                 <ul>
                                     <li>React js</li>
-                                    <li>Angular js</li>
+                                    <li>Angular Js</li>
                                     <li>Hybrid App</li>
                                     <li>Android and IOS </li>
-                                    <li>Java developers</li>
+                                    <li>Java</li>
                                 </ul>
                             </div>
                         </div>
