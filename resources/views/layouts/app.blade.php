@@ -87,16 +87,19 @@
                                         plot no-1604, Kalinganagar-3 Odisha, Bhubaneswar-751003</a>
                                 </li>
                             </ul>
-                            <ul class="pink_social">
-                                <li><a target="_blank" href="https://www.facebook.com/themavensdesk/"><i
-                                            class="fa fa-facebook"></i></a></li>
-                                <li><a target="_blank" href="https://www.linkedin.com/company/themavensdesk/"><i
-                                            class="fa fa-linkedin"></i></a></li>
-                                <li><a target="_blank" href="https://www.instagram.com/themavensdesk/"><i
-                                            class="fa fa-instagram"></i></a></li>
-                                <li><a target="_blank" href="https://twitter.com/themavensdesk"><i
-                                            class="fa fa-twitter"></i></a></li>
-                            </ul>
+                            <div class="follow-us">
+                                <h3>Follow US</h3>
+                                <ul class="pink_social">
+                                    <li><a target="_blank" href="https://www.facebook.com/themavensdesk/"><i
+                                                class="fa fa-facebook"></i></a> Facebook</li>
+                                    <li><a target="_blank" href="https://www.linkedin.com/company/themavensdesk/"><i
+                                                class="fa fa-linkedin"></i></a> LinkedIn</li>
+                                    <li><a target="_blank" href="https://www.instagram.com/themavensdesk/"><i
+                                                class="fa fa-instagram"></i></a> Instagram</li>
+                                    <li><a target="_blank" href="https://twitter.com/themavensdesk"><i
+                                                class="fa fa-twitter"></i></a>Twitter</li>
+                                </ul>
+                            </div>    
                         </aside>
                     </div>
                     <div class="col-md-2"></div>
