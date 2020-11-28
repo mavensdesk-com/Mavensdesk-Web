@@ -29,7 +29,7 @@
             <div class="col-12 text-center">
                 <div class="block-sm animate-box ">
                     <h3 class="wow fadeInDown myapps-header">Our Apps</h3>
-                    <p class="myapps-title">Apps to take your business to next level</p>
+                    <p class="myapps-title">Apps that will take your business to the next level</p>
                 </div>
             </div>
         </div>

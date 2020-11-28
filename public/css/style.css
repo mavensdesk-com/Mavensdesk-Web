@@ -13036,7 +13036,9 @@ iframe {
   padding-right: 5%;
   text-align: center;
 }
-
+.pink_social li:hover{
+  color: #ffcd2f;
+}
 .pink_social li a {
   height: 28px;
   width: 28px;
