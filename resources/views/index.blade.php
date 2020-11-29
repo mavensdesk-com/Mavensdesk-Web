@@ -22,7 +22,7 @@
 
     <link href="vendors/animate-css/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="vendors/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet">
-
+    {!! NoCaptcha::renderJs() !!}
 
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
@@ -377,6 +377,17 @@
                             <div class="form-field">
                                 <textarea name="message" id="contactMessage" placeholder="Your Message" rows="10"
                                     cols="50" required="" aria-required="true" class="full-width"></textarea>
+                            </div>
+                            <div class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
+                                <label class="col-md-4 control-label">Captcha</label>
+                                <div class="col-md-6">
+                                    {!! app('captcha')->display() !!}
+                                    @if ($errors->has('g-recaptcha-response'))
+                                        <span class="help-block">
+                                            <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                                        </span>
+                                    @endif
+                                </div>
                             </div>
                             <div class="form-field">
                                 <button class="full-width btn--primary">Submit</button>
