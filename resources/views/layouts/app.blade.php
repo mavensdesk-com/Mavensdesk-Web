@@ -84,7 +84,7 @@
                                 <li>For queries :<a href="mailto: info@mavensdesk.com"> info@mavensdesk.com</a></li>
                                 <li>For sales :<a href="mailto: salesindia@mavensdesk.com"> salesindia@mavensdesk.com</a></li>
                                 <li>Address :<a target="_blank" href="https://goo.gl/maps/Q243pigUjVSqNCzM8">
-                                        plot no-1604, Kalinganagar-3 Odisha, Bhubaneswar-751003</a>
+                                        #1604, Kalinganagar-3 Odisha, Bhubaneswar-751003</a>
                                 </li>
                             </ul>
                             <div class="follow-us">
