@@ -1,4 +1,5 @@
 <!-- =====================Contact Section================= -->
+{!! NoCaptcha::renderJs() !!}
 <section id="contact" class="s-contact">
     <div class="overlay"></div>
     <!-- <div class="contact__line"></div> -->
@@ -27,6 +28,17 @@
                             </div>
                             <div class="form-field">
                                 <textarea name="message" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                            </div>
+                            <div class="col-12">
+                               <div class="g-recaptcha" name="g-recaptcha-response" data-sitekey="6LcBrgAVAAAAAJoI-MSMz-f5JeZpoMPjsAuzAypB"></div>
+					       
+					            @if($errors->has('g-recaptcha-response'))
+					                <span class="invalid-feedback" style="display:block;">
+					                    <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+					                </span>
+					            
+					            @endif
+						
                             </div>
                             <div class="form-field">
                                 <button class="full-width btn--primary">Submit</button>

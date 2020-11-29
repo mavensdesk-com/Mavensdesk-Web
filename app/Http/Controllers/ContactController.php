@@ -26,6 +26,7 @@ class ContactController extends Controller
          'name' => 'required',
          'email' => 'required|email',
          'message' => 'required',
+         'g-recaptcha-response' => 'required|captcha',
     ]);
 
        $messages = $request->input('message');
