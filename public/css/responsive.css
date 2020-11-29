@@ -1293,6 +1293,9 @@
 	}
 }
 @media (max-width: 600px){
+	.gadget_banner_area{
+		background-image: none!important;
+	}
 	.footer_widget_inner .col-xs-6{
 		width: 100%;
 	}

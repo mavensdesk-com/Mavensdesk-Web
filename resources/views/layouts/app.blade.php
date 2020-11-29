@@ -1,83 +1,156 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="icon" href="img/title_logo.png" type="image/x-icon" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> @yield('title') | Mavensdesk Consultancy Services</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="it services company it services and solutions it services and consulting it services agreement
+        it services and products it services and consulting companies it services and support it services and solutions company it services advertisement a-it software services a tech it services a to z it servicesit services business it services business model
+        it & c payment services department it & c payment servicesit services definition d&d it services d services hyderabad d services plumbing e-solutions it services pvt ltd" charset="utf-8">
+    <!-- Icon css link -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/icofont.css" rel="stylesheet">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <link href="vendors/animate-css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 </head>
-<body>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+
+<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="90">
+
+
+    <div id="preloader">
+        <div id="preloader_spinner">
+            <div class="pre_inner">
+                <div class="dot dot-1"></div>
+                <div class="dot dot-2"></div>
+                <div class="dot dot-3"></div>
+            </div>
+        </div>
+    </div>
+    
+    @yield('navbar')
+    @yield('content')
+
+    <!--================Footer Area =================-->
+    <footer class="pink_footer">
+        <div class="pink_footer_wedget_area">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                        <!-- Authentication Links -->
-                        @guest
-                            @if (Route::has('login'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-1 col-xs-6">
+                        <aside class="f_widget p_menu_widget">
+                            <div class="p_f_w_title">
+                                <h3>Home Pages</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#feature">Services</a></li>
+                                <li><a href="#partner">Partners</a></li>
+                                <li><a href="#team">Who We Are</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="col-md-2 col-md-offset-1 col-xs-6">
+                        <aside class="f_widget p_support_widget">
+                            <div class="p_f_w_title">
+                                <h3>Our support</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Help & Support</a></li>
+                                <li><a href="#">Getting Started FAQ</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1 col-xs-6">
+                        <aside class="f_widget p_contact_widget">
+                            <div class="p_f_w_title">
+                                <h3>Contact information</h3>
+                            </div>
+                            <ul class="contact_info">
+                                <li>For queries :<a href="mailto: info@mavensdesk.com"> info@mavensdesk.com</a></li>
+                                <li>For sales :<a href="mailto: salesindia@mavensdesk.com"> salesindia@mavensdesk.com</a></li>
+                                <li>Address :<a target="_blank" href="https://goo.gl/maps/Q243pigUjVSqNCzM8">
+                                        plot no-1604, Kalinganagar-3 Odisha, Bhubaneswar-751003</a>
                                 </li>
-                            @endif
-                            
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                        @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }}
-                                </a>
-
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
-
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-                        @endguest
-                    </ul>
+                            </ul>
+                            <div class="follow-us">
+                                <h3>Follow US</h3>
+                                <ul class="pink_social">
+                                    <li><a target="_blank" href="https://www.facebook.com/themavensdesk/"><i
+                                                class="fa fa-facebook"></i></a> Facebook</li>
+                                    <li><a target="_blank" href="https://www.linkedin.com/company/themavensdesk/"><i
+                                                class="fa fa-linkedin"></i></a> LinkedIn</li>
+                                    <li><a target="_blank" href="https://www.instagram.com/themavensdesk/"><i
+                                                class="fa fa-instagram"></i></a> Instagram</li>
+                                    <li><a target="_blank" href="https://twitter.com/themavensdesk"><i
+                                                class="fa fa-twitter"></i></a>Twitter</li>
+                                </ul>
+                            </div>    
+                        </aside>
+                    </div>
+                    <div class="col-md-2"></div>
                 </div>
             </div>
-        </nav>
+        </div>
+        <div class="pink_copyright">
+            <div class="container">
+                <div class="pull-left">
+                    <a href="#"><img src="img/logo.png" alt=""></a>
+                </div>
+                <div class="pull-right">
+                        <meta charset="utf-8" description="copyright" name="software development life cycle software development software development engineer software development projects
+        software development models software it servicesit services business  development life cycle phases it services and support it services and solutions company software development process
+        software development architecture  it servicesit services business software development and maintenance agreement pdf a software development methodology is a framework for which of the following">
+                    <p class="copyright">
+                        Copyright &copy;2020</script> All rights reserved to <a href="http://mavensdesk.com/"
+                            target="_blank">Mavensdesk Consultancy Services</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--================End Footer Area =================-->
 
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
+    <script src="js/jquery-2.2.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Rev slider js -->
+    <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <!-- Extra Plugin -->
+    <script src="vendors/parallax/jquery.parallax-scroll.js"></script>
+    <script src="vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/counterup/waypoints.min.js"></script>
+    <script src="vendors/counterup/jquery.counterup.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="vendors/flexslider/flex-slider.js"></script>
+    <script src="vendors/flexslider/mixitup.js"></script>
+    <script src="vendors/swiper/js/swiper.min.js"></script>
+    <script src="vendors/flipster-slider/jquery.flipster.min.js"></script>
+    <script src="vendors/nice-selector/jquery.nice-select.min.js"></script>
+
+    <script src="js/theme.js"></script>
+
+
 </body>
+
 </html>

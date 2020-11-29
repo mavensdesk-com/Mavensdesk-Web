@@ -843,12 +843,16 @@ iframe {
 }
 
 .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.get_free_btn a {
-  background: #121921;
+  background: #fd00fd;
   text-align: center;
   padding: 0px 18px;
   border-radius: 3px;
-  color: #ffcd2f;
+  color: #ffffff;
   font-size: 14px;
+}
+.dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.get_free_btn a:hover{
+  background-color: #fff;
+  color: #fd00fd;
 }
 
 .dash_tp_menu_area.tp_menu {
@@ -1726,7 +1730,7 @@ iframe {
 }
 
 .gadget_banner_inner .gadget_text h2 {
-  /* color: #000; */
+  /* color: #24286C ; */
   font-size: 50px;
   font-family: "Heebo", sans-serif;
   font-weight: 900;
@@ -1740,7 +1744,7 @@ iframe {
   /* text-transform: uppercase; */
   font-family: "Heebo", sans-serif;
   font-weight: bold;
-  /* color: #000; */
+  /* color: #742D75; */
   padding: 15px 0px 63px 0px;
   max-width: 410px;
   line-height: 2.4rem;
@@ -4629,7 +4633,7 @@ iframe {
   padding-bottom: 15px;
 }
 
-.gd_feature_inner .gd_f_text p {
+.gd_feature_inner .gd_f_text p,.gd_feature_inner .gd_f_text li a{
   max-width: 430px;
   font-size: 14px;
   line-height: 24px;
@@ -4638,6 +4642,11 @@ iframe {
   font-weight: normal;
   padding-bottom: 15px;
   text-align: justify;
+}
+
+.gd_feature_inner .gd_f_text ul{
+  list-style-type: disc;
+  padding: 15px;
 }
 
 .gd_feature_inner .gd_f_text a {
@@ -13011,14 +13020,21 @@ iframe {
 .p_contact_widget .contact_info li:last-child {
   margin-bottom: 0px;
 }
-
+.follow-us h3{
+  padding-top: 10%;
+  color: #fff;
+  font-size: 20px;
+}
 .pink_social {
-  padding-top: 40px;
+  padding-top: 20px;
+  display: flex;
 }
 
 .pink_social li {
   display: inline-block;
-  margin-right: 10px;
+  color: #fff;
+  padding-right: 5%;
+  text-align: center;
 }
 
 .pink_social li a {
@@ -14363,7 +14379,7 @@ button.btn--primary {
 /* .partners_logo_area .main_title {
   padding-bottom: 35px;
 } */
-.partners_logo_area .main_title p{
+.partners_logo_area .main_title p,.location .main_title p{
   max-width: 700px;
   margin: auto;
   font-size: 15px;
@@ -14372,7 +14388,7 @@ button.btn--primary {
   font-family: "Heebo", sans-serif;
   letter-spacing: .28px;
 }
-.partners_logo_area .main_title h2{
+.partners_logo_area .main_title h2,.location .main_title h2{
   font-size: 30px;
   color: #121921;
   font-family: "Heebo", sans-serif;
@@ -14381,7 +14397,7 @@ button.btn--primary {
   margin-bottom: 20px;
   text-transform: none;
 }
-.partners_logo_area .main_title h2 .colored{
+.partners_logo_area .main_title h2 .colored,.location .main_title h2 .colored{
   color: #d80aaa;
 }
 .owl-dots .owl-dot.active{
@@ -14447,7 +14463,29 @@ button.btn--primary {
     display: flex;
     flex-wrap: wrap;
 }
-
+.location{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.location .row{
+  margin-top: 50px;
+}
+.country-card{
+  padding: 15px;
+}
+.country-icon{
+  width: 50px;
+  height: 50px;
+}
+.country-card p{
+  margin-top: 20px;
+  text-align: center;
+}
+.justify-align-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 500px ){
     .c-card{
         padding: 60px 40px 120px 40px;
@@ -14463,3 +14501,10 @@ button.btn--primary {
         width: 180px;
     }
 } 
+#bs-example-navbar-collapse-1 ul li a:hover{
+  color: rgb(255, 0, 212);
+}
+.get_free_btn a{
+  background-color: purple;
+  color: #fff;
+}
