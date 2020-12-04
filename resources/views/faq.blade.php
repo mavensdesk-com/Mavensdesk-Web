@@ -1,3 +1,12 @@
+@extends('layouts.app')
+@section('title', 'Frequently asked questions')
+
+@section('navbar')
+@include('components.navbar')
+@endsection
+
+@section('content')
+
 <!--================FAQ Area =================-->
 <div class="faq">
   <details open>
@@ -64,3 +73,4 @@
   </details>
 </div>
 <!--================End FAQ Area =================-->
+@endsection

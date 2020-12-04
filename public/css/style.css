@@ -843,16 +843,16 @@ iframe {
 }
 
 .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.get_free_btn a {
-  background: #fd00fd;
+  background: #121921;
   text-align: center;
   padding: 0px 18px;
   border-radius: 3px;
-  color: #ffffff;
+  color: #d80aaa;
   font-size: 14px;
 }
 .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.get_free_btn a:hover{
   background-color: #fff;
-  color: #fd00fd;
+  color: #d80aaa;
 }
 
 .dash_tp_menu_area.tp_menu {

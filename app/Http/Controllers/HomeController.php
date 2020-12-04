@@ -66,6 +66,10 @@ class HomeController extends Controller
     {
         return view('clientTele');
     }
+    public function faq()
+    {
+        return view('faq');
+    }
     public function myapps()
     {
         return view('myapps');

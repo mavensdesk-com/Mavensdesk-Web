@@ -21,6 +21,7 @@
                 <li><a href="#partners">Partners</a></li>
                 <li><a href="/clienTele">Clientele</a></li>
                 <li><a href="#contact">Contact Us</a></li>
+                <li><a href="/faq">FaQ</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="get_free_btn"><a href="/myapps">My Apps</a></li>

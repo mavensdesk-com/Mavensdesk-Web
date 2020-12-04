@@ -17,12 +17,18 @@
             <ul class="nav navbar-nav">
                 <li><a href="/">Home</a></li>
                 <li><a href="/index.html#about">About Us</a></li>
-                <li><a class="nav-link dropdown-toggle" href="#" id="services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <li><a class="nav-link dropdown-toggle" href="#" id="category" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Services
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="services">
-                        <a class="dropdown-item" href="/application_services">Application Services</a>
-                        <a class="dropdown-item" href="/consulting_services">Consulting Services</a>
+                    <div class="dropdown-menu" aria-labelledby="category">                        
+                        <a class="dropdown-item" id="application_services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Application Development
+                        <div class="dropdown-menu" aria-labelledby="application_services">
+                            <a class="dropdown-item" href="/application_service">Web Application</a> 
+                            <a class="dropdown-item" href="/application_service">Mobile Application</a> 
+                        </div>
+                        </a>
+                        <a class="dropdown-item" href="/consulting_services">Business Consulting & Support</a>
                         <a class="dropdown-item" href="/public_relations_services">Public Relations</a>
                         <a class="dropdown-item" href="/digital_services">Digital Experience</a>
                         <a class="dropdown-item" href="/business_Advisory_services">Business Advisory</a>
@@ -34,6 +40,7 @@
                 <li><a href="/index.html#partners">Partners</a></li>
                 <li><a href="/clienTele">Clientele</a></li>
                 <li><a href="/index.html#contact">Contact</a></li>
+                <li><a href="/faq">FaQ</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="get_free_btn"><a href="/myapps">My Apps</a></li>

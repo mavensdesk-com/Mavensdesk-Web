@@ -88,16 +88,16 @@
                                 </li>
                             </ul>
                             <div class="follow-us">
-                                <h3>Follow US</h3>
+                                <!-- <h3>Follow US</h3> -->
                                 <ul class="pink_social">
                                     <li><a target="_blank" href="https://www.facebook.com/themavensdesk/"><i
-                                                class="fa fa-facebook"></i></a> Facebook</li>
+                                                class="fa fa-facebook"></i></a> </li>
                                     <li><a target="_blank" href="https://www.linkedin.com/company/themavensdesk/"><i
-                                                class="fa fa-linkedin"></i></a> LinkedIn</li>
+                                                class="fa fa-linkedin"></i></a> </li>
                                     <li><a target="_blank" href="https://www.instagram.com/themavensdesk/"><i
-                                                class="fa fa-instagram"></i></a> Instagram</li>
+                                                class="fa fa-instagram"></i></a> </li>
                                     <li><a target="_blank" href="https://twitter.com/themavensdesk"><i
-                                                class="fa fa-twitter"></i></a>Twitter</li>
+                                                class="fa fa-twitter"></i></a></li>
                                 </ul>
                             </div>    
                         </aside>

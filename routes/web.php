@@ -29,6 +29,7 @@ Route::get('/public_relations_services', [App\Http\Controllers\HomeController::c
 Route::get('/branding_promotion_services', [App\Http\Controllers\HomeController::class, 'branding_promotion_services'])->name('branding_promotion_services');
 Route::get('/business_Advisory_services', [App\Http\Controllers\HomeController::class, 'business_Advisory_services'])->name('business_Advisory_services');
 Route::get('/clienTele', [App\Http\Controllers\HomeController::class, 'clientTele'])->name('clientTele');
+Route::get('/faq', [App\Http\Controllers\HomeController::class, 'faq'])->name('faq');
 Route::get('/myapps', [App\Http\Controllers\HomeController::class, 'myapps'])->name('myapps');
 
 Route::get('contact-us', [App\Http\Controllers\ContactController::class, 'contactUS']);
