@@ -1244,7 +1244,12 @@
             }
         })
     }
-	
+    $('.submenu > a').on('click',function(){
+        $(this).parent().addClass('open');
+    });
+	$('.sub-submenu ul li').on('click',function () {
+        $(this).parents(".submenu").removeClass('open');
+    });
 	
 	// preloader js
     $(window).on('load', function() { // makes sure the whole site is loaded

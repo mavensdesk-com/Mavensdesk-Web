@@ -20,10 +20,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/index.html', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
-Route::get('/application_services', [App\Http\Controllers\HomeController::class, 'application_services'])->name('application_services');
+Route::get('/web_application_services', [App\Http\Controllers\HomeController::class, 'web_application_services'])->name('web_application_services');
+Route::get('/app_application_services', [App\Http\Controllers\HomeController::class, 'app_application_services'])->name('app_application_services');
 Route::get('/digital_services', [App\Http\Controllers\HomeController::class, 'digital_services'])->name('digital_services');
 Route::get('/training_services', [App\Http\Controllers\HomeController::class, 'training_services'])->name('training_services');
-Route::get('/consulting_services', [App\Http\Controllers\HomeController::class, 'consulting_services'])->name('consulting_services');
+Route::get('/oracle_erp_services', [App\Http\Controllers\HomeController::class, 'consulting_services'])->name('consulting_services');
 Route::get('/recruitment_services', [App\Http\Controllers\HomeController::class, 'recruitment_services'])->name('recruitment_services');
 Route::get('/public_relations_services', [App\Http\Controllers\HomeController::class, 'public_relations_services'])->name('public_relations_services');
 Route::get('/branding_promotion_services', [App\Http\Controllers\HomeController::class, 'branding_promotion_services'])->name('branding_promotion_services');
