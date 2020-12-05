@@ -14515,7 +14515,6 @@ button.btn--primary {
 summary {
   font-size: 1.25rem;
   font-weight: 600;
-  background-color: #fff;
   color: #333;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -14523,12 +14522,13 @@ summary {
   border-radius: 0.25rem;
   text-align: left;
   cursor: pointer;
-  position: relative;
+  width: 110%;
 }
 details > summary::after {
   position: absolute;
   content: "+";
   right: 20px;
+  width: 5%;
 }
 details[open] > summary::after {
   position: absolute;
@@ -14542,9 +14542,29 @@ details[open] summary ~ * {
   animation: sweep 0.5s ease-in-out;
 }
 .faq{
-  background: url(../img/pink-footer-bg.jpg) no-repeat scroll center center;
   background-size: cover;
 }
+.faq span{
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 5%;
+  color: #000;
+  padding-left: 5%;
+}
+.faq__content{
+  width: 90%;
+}
+.faq__content p{
+  padding-left: 1.5%;
+  color: black;
+  width: 90%;
+}
+.faq-data{
+  display: flex;
+  padding-top: 10%;
+}
+
 @keyframes sweep {
   0% {
     opacity: 0;
@@ -14554,4 +14574,56 @@ details[open] summary ~ * {
     opacity: 1;
     margin-top: 0px;
     }
+}
+@media only screen and (max-width:1200px){
+  .faq-data {
+    display: block;
+    padding-top: 10%;
+}
+.faq-data img{
+  width: 28%;
+    height: 15%;
+    align-content: center;
+    padding-top: 20%;
+    margin-left: 35%;
+}
+.faq {
+  background-size: cover;
+  padding-top: 5%;
+}
+.faq span {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 5%;
+  color: #000;
+  padding-left: 17%;
+}
+details{
+  padding-left: 5%;
+    padding-right: 6%;
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 33px;
+  width: 2%;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+.faq__content p {  
+  width: 110%;
+}
+summary{
+  width: 97%;
+}
+}
+@media only screen and (max-width:600px) {
+  .faq-data {
+    display: block;
+    padding-top: 10%;
+}
 }
