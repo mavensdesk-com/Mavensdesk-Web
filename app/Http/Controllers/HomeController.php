@@ -22,9 +22,13 @@ class HomeController extends Controller
         return view('index');
     }
     
-    public function application_services()
+    public function web_application_services()
     {
-        return view('application_services');
+        return view('web_application_services');
+    }
+    public function app_application_services()
+    {
+        return view('app_application_services');
     }
     
     public function digital_services()

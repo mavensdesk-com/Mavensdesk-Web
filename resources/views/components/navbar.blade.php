@@ -17,25 +17,40 @@
             <ul class="nav navbar-nav">
                 <li><a href="/">Home</a></li>
                 <li><a href="/index.html#about">About Us</a></li>
-                <li><a class="nav-link dropdown-toggle" href="#" id="category" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <li class="submenu"><a class="nav-link" href="#" data-toggle="dropdown">
                         Services
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="category">                        
-                        <a class="dropdown-item" id="application_services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Application Development
-                        <div class="dropdown-menu" aria-labelledby="application_services">
-                            <a class="dropdown-item" href="/application_service">Web Application</a> 
-                            <a class="dropdown-item" href="/application_service">Mobile Application</a> 
-                        </div>
-                        </a>
-                        <a class="dropdown-item" href="/consulting_services">Business Consulting & Support</a>
-                        <a class="dropdown-item" href="/public_relations_services">Public Relations</a>
-                        <a class="dropdown-item" href="/digital_services">Digital Experience</a>
-                        <a class="dropdown-item" href="/business_Advisory_services">Business Advisory</a>
-                        <a class="dropdown-item" href="/training_services">Training Services</a>
-                        <a class="dropdown-item" href="/recruitment_services">Recruitment Services</a>
-                        <!-- <a class="dropdown-item" href="/branding_promotion_services">Product branding and Promotion</a> -->
-                    </div>
+                    <ul class="dropdown-menu">                        
+                        <li class="sub-submenu">
+                            <a id="application_services" data-toggle="dropdown">Application Development</a>
+                            <ul class="dropdown-menu" aria-labelledby="application_services">
+                                <li><a href="/web_application_services">Web Application</a> </li>
+                                <li><a href="/app_application_services">Mobile Application</a> </li>
+                            </ul>
+                        </li>    
+                        <li class="sub-submenu">
+                            <a id="business_consulting" data-toggle="dropdown">Business Consulting & Support</a>
+                            <ul class="dropdown-menu" aria-labelledby="business_consulting">
+                                <li><a  href="/oracle_erp_services">Oracle ERP</a> </li>
+                            </ul>
+                        </li>
+                        <li class="sub-submenu">
+                            <a id="digital_experience" data-toggle="dropdown">Digital Experience</a>
+                            <ul class="dropdown-menu" aria-labelledby="digital_experience">
+                                <li><a href="/digital_services">Digital Marketing</a> </li>
+                                <li><a href="/public_relations_services">Public Relations</a> </li>
+                                <li><a href="/branding_promotion_services">Branding and Promotion </a> </li>
+                            </ul>                            
+                         </li>
+                        <li class="sub-submenu">
+                            <a id="training_staffing" data-toggle="dropdown">Training & Staffing</a>
+                            <ul class="dropdown-menu" aria-labelledby="training_staffing">
+                                <li><a href="/training_services">Training Services</a></li>
+                                <li><a href="/recruitment_services">Recruitment Services</a></li>
+                            </ul>                            
+                         </li>
+                        <!-- <a href="/branding_promotion_services">Product branding and Promotion</a> -->
+                </ul>
                 </li>
                 <li><a href="/index.html#partners">Partners</a></li>
                 <li><a href="/clienTele">Clientele</a></li>

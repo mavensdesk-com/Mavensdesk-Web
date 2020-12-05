@@ -641,7 +641,7 @@ iframe {
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
   display: block;
-  background: #fff;
+  background: #000;
 }
 
 .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.submenu .dropdown-menu li a:before {
@@ -737,7 +737,7 @@ iframe {
   font-weight: 500;
   letter-spacing: .32px;
   color: #fff;
-  background: transparent;
+  background: #000;
   display: block;
   line-height: 42px;
 }
@@ -780,8 +780,8 @@ iframe {
 
 .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu li a {
   line-height: 45px;
-  color: #494848;
-  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-family: "Heebo", sans-serif;
   font-weight: normal;
   font-size: 16px;
   padding: 0px 20px;
@@ -790,7 +790,7 @@ iframe {
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
   display: block;
-  background: #fff;
+  background: #000;
   position: relative;
   z-index: 2;
 }
@@ -820,21 +820,31 @@ iframe {
 .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu li:last-child {
   border-bottom: none;
 }
-
-.dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu li:hover a {
-  background: #424242;
-  color: #fff;
+.sub-submenu{
+  position: relative;
 }
-
-.dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu li:hover a:before {
+.dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu li:hover > a:before {
+  opacity: 1;
+}
+.dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu .sub-submenu .dropdown-menu li:hover > a:before {
   opacity: 1;
 }
 
 @media (min-width: 992px) {
-  .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu:hover ul {
+  .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu:hover > ul {
     left: 0px;
     visibility: visible;
     opacity: 1;
+  }
+  .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu .sub-submenu:hover > ul {
+    left: 0px;
+    visibility: visible;
+    opacity: 1;
+  }
+  .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu .sub-submenu > ul{
+    top: 0px !important;
+    right: 0px;
+    margin-left: calc(100% + 2px);
   }
 }
 
@@ -9766,29 +9776,6 @@ iframe {
 /*----------------------------------------------------*/
 /* Customer Count Area css
 ============================================================================================ */
-.dropdown-menu{
-  opacity: 0.5;
-}
-.dropdown-menu .dropdown-item:hover{
-  opacity: 0.8;  
-}
-
-@media (min-width: 991px){
-  
-.dropdown-menu{
-  margin-top: 20px !important;
-  min-width: 300px !important;
-  background-color: #000;
-  opacity: 0.5;
-  max-width: 120px;
-}
-.dropdown-item{
-  padding: 0px 15px !important;
-}
-.dropdown-menu .dropdown-item:hover {
-  opacity: 0.4;
-}
-}
 
 .customer_count_area {
   background: #f6f7fa;
@@ -14503,9 +14490,7 @@ button.btn--primary {
         width: 180px;
     }
 } 
-#bs-example-navbar-collapse-1 ul li a:hover{
-  color: rgb(255, 0, 212);
-}
+
 .get_free_btn a{
   background-color: purple;
   color: #fff;
