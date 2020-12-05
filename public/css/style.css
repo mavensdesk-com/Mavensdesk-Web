@@ -775,8 +775,8 @@ iframe {
   display: block;
   float: none;
   margin-right: 0px;
-  border-bottom: 1px solid #cbcbcb;
 }
+
 
 .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu li a {
   line-height: 45px;
@@ -826,6 +826,9 @@ iframe {
 .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu li:hover > a:before {
   opacity: 1;
 }
+.dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu .sub-submenu .dropdown-menu li a{
+  padding: 0px 40px;
+}
 .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu .sub-submenu .dropdown-menu li:hover > a:before {
   opacity: 1;
 }
@@ -846,7 +849,11 @@ iframe {
     right: 0px;
     margin-left: calc(100% + 2px);
   }
+  .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu li{
+    border-bottom: 1px solid #cbcbcb;
+  }
 }
+
 
 .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li {
   margin-right: 0px;

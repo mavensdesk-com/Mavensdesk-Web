@@ -17,7 +17,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="/">Home</a></li>
                 <li><a href="/index.html#about">About Us</a></li>
-                <li class="submenu"><a class="nav-link" href="#" data-toggle="dropdown">
+                <li class="submenu"><a class="nav-link" href="#">
                         Services
                     </a>
                     <ul class="dropdown-menu">                        
