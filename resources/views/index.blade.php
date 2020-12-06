@@ -2,7 +2,7 @@
 @section('title', 'Home Page')
 
 @section('navbar')
-@include('components.navbar')
+@include('components.homeNavbar')
 @endsection
 
 @section('content')
