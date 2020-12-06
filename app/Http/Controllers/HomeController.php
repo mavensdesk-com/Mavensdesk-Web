@@ -17,9 +17,13 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index()    
     {
-        return view('index');
+        $partners = [
+            'trainingPartners'=>['img/partners/TutorOnTech.png'],
+            'skill'=>['img/partners/TutorOnTech.png'],
+        ];
+        return view('index',compact('partners'));
     }
     
     public function web_application_services()

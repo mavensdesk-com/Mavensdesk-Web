@@ -69,7 +69,7 @@
 </section>
 <!--================End Powerful Area =================-->
 @include('components.services')
-@include('components.partners')
 @include('components.contacts')
 @include('components.otherLocation')
+@include('components.partners')
 @endsection

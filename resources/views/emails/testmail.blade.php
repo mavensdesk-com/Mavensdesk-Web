@@ -73,7 +73,7 @@
                                 <tr>
                                     <td style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
                                        <p style="color:#0c9994; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">Thank you so much for contacing us. We're feeling pretty lucky that you chose us, and I just wanna say thank you on behalf of our whole company.</p>
-                                        <p style="color:#0c9994; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">To get you settled, we would like you to visit our Services <a target=”_blank” href="https://Mavensdesk.com/services">website</a>. </p>
+                                        <p style="color:#0c9994; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">To get you settled, we would like you to visit<a target=”_blank” href="https://mavensdesk.com/"> our website</a>. </p>
                                         <p style="color:#0c9994; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">Please be patient as we are more eager to collabrate with you in your journey and will contact you shortly</p>
 
                                             <p style="color:#0c9994;"> Cheers,</p>

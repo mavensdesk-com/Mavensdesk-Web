@@ -39,7 +39,7 @@
                             <ul class="dropdown-menu" aria-labelledby="digital_experience">
                                 <li><a href="/digital_services">Digital Marketing</a> </li>
                                 <li><a href="/public_relations_services">Public Relations</a> </li>
-                                <li><a href="/branding_promotion_services">Branding and Promotion </a> </li>
+                                <li><a href="/branding_promotion_services">Branding & Promotion </a> </li>
                             </ul>                            
                          </li>
                         <li class="sub-submenu">
@@ -55,7 +55,6 @@
                 <li><a href="/index.html#partners">Partners</a></li>
                 <li><a href="/clienTele">Clientele</a></li>
                 <li><a href="/index.html#contact">Contact</a></li>
-                <li><a href="/faq">FaQ</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="get_free_btn"><a href="/myapps">My Apps</a></li>

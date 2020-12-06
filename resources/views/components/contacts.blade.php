@@ -1,33 +1,31 @@
 <!-- =====================Contact Section================= -->
 {!! NoCaptcha::renderJs() !!}
 <section id="contact" class="s-contact">
-    <div class="overlay"></div>
+    <!-- <div class="overlay"></div> -->
     <!-- <div class="contact__line"></div> -->
-    <div class="container justify-content-center">
-        <div class="section-header">
-            <div class="col-full">
-                <h3 class="subhead">Contact Us</h3>
-                <h1 class="display-2 display-2--light">We’d love to hear from you</h1>
-            </div>
+    <div class="container">
+        <div class="main_title">
+            <h2 >Contact Us</h2>
+            <p>We’d love to hear from you</p>
         </div>
         <form action="{{ route('contactus.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="row contact-row contact-content">
                 <div class="contact-primary">
-                    <h3 class="h6">Send Us A Message</h3>
+                    <h3 class="h6">We are here to <span class="colored">receive your message!!</span></h3>
                     <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
                         <fieldset>
                             <div class="form-field">
-                                <input name="name" type="text" id="contactName" placeholder="Your Name" minlength="2" required="" aria-required="true" class="full-width">
+                                <input name="name" type="text" id="contactName" placeholder="Your Name" minlength="2" required aria-required="true" class="full-width">
                             </div>
                             <div class="form-field">
-                                <input name="email" type="email" id="contactEmail" placeholder="Your Email" required="" aria-required="true" class="full-width">
+                                <input name="email" type="email" id="contactEmail" placeholder="Your Email" required aria-required="true" class="full-width">
                             </div>
                             <div class="form-field">
-                                <input name="subject" type="text" id="contactSubject" placeholder="Subject" class="full-width">
+                                <input name="subject" type="text" id="contactSubject" placeholder="Subject" required class="full-width">
                             </div>
                             <div class="form-field">
-                                <textarea name="message" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                                <textarea name="message" id="contactMessage" placeholder="Your Message" cols="50" required aria-required="true" class="full-width"></textarea>
                             </div>
                             <div class="col-12">
                                <div class="g-recaptcha" name="g-recaptcha-response" data-sitekey="6LcBrgAVAAAAAJoI-MSMz-f5JeZpoMPjsAuzAypB"></div>

@@ -1250,7 +1250,15 @@
 	$('.sub-submenu ul li').on('click',function () {
         $(this).parents(".submenu").removeClass('open');
     });
-	
+    
+    //partners
+
+    $('.filter').on('click',function(){
+        let selectedClass = $(this).attr('data-filter');
+        console.log(selectedClass);
+        $(".partner-list div").not("."+selectedClass).fadeOut().removeClass('partnerAnimation');
+        $("."+selectedClass).fadeIn().addClass('partnerAnimation');
+    }); 
 	// preloader js
     $(window).on('load', function() { // makes sure the whole site is loaded
 		$('#preloader_spinner').fadeOut(); // will first fade out the loading animation

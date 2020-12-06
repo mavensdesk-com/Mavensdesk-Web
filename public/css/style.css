@@ -864,7 +864,7 @@ iframe {
   text-align: center;
   padding: 0px 18px;
   border-radius: 3px;
-  color: #d80aaa;
+  color: #ffcd2f;
   font-size: 14px;
 }
 .dash_tp_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.get_free_btn a:hover{
@@ -3774,6 +3774,7 @@ iframe {
 .asked_ques_area {
   background: #f6f7fa;
   padding: 110px 0px;
+  padding-top: 180px;
 }
 
 .asked_ques_inner {
@@ -3807,14 +3808,19 @@ iframe {
   padding-bottom: 25px;
 }
 
-.asked_ques_inner .asked_item p {
+.asked_ques_inner .asked_item p,.asked_ques_inner .asked_item pre {
   font-size: 14px;
   line-height: 24px;
   color: #8e8e8e;
   font-family: "Heebo", sans-serif;
   letter-spacing: .28px;
 }
-
+.asked_ques_inner .asked_item pre{
+  padding: 0px;
+  margin: 0px;
+  background: transparent;
+  border: 0px;
+}
 .asked_ques_inner .asked_item p + p {
   padding-top: 26px;
 }
@@ -5488,7 +5494,7 @@ iframe {
   color: #eb484d;
 }
 
-.order_btn {
+.order_btn,.partner_btn {
   background: #d30039;
   text-transform: uppercase;
   display: inline-block;
@@ -5504,12 +5510,22 @@ iframe {
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
 }
+.partner_btn{
+  line-height: 35px;
+  background: transparent;
+  border-color: #6b6d6f;
+  color: #6b6d6f;
+  padding: 0px 15px;
+}
 
 .order_btn:hover {
   color: #d30039;
   background: transparent;
 }
-
+.partner_btn:hover{
+  color: #d80aaa;
+  border-color: #d80aaa;
+}
 /* End Submit Button Gradient css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -12955,7 +12971,8 @@ iframe {
 }
 
 .pink_footer_wedget_area {
-  padding: 110px 0px;
+  padding: 70px 0px;
+  padding-bottom: 60px;
 }
 
 .p_f_w_title {
@@ -13025,7 +13042,6 @@ iframe {
 }
 
 .pink_social li {
-  display: inline-block;
   color: #fff;
   padding-right: 5%;
   text-align: center;
@@ -13034,13 +13050,16 @@ iframe {
   color: #ffcd2f;
 }
 .pink_social li a {
-  height: 28px;
-  width: 28px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   background: #000;
   text-align: center;
   color: #fff;
-  font-size: 12px;
+  font-size: 20px;
   display: inline-block;
   line-height: 28px;
   -webkit-transition: all 400ms linear 0s;
@@ -13913,18 +13932,13 @@ select {
   transition: all .3s ease-in-out
 }
 textarea {
-  min-height: 25rem;
+  min-height: 18rem;
 }
 
 .s-contact {
-  background-color: #151515;
-  background-image: url(../img/contact-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center, center;
-  padding-top: 15rem;
-  padding-bottom: 12rem;
-  color: rgba(255, 255, 255, .5);
-  position: relative
+  padding-top: 8rem;
+  padding-bottom: 12rem;  
+  background: #f6f7fa;
 }
 
 .s-contact .overlay {
@@ -13988,22 +14002,22 @@ textarea {
   max-width: 1000px;
   background-color: rgba(0, 0, 0, .2);
   color: rgba(255, 255, 255, .4);
+  margin-top: 6rem !important;
   padding-top: 6rem;
   padding-bottom: 6rem;
-  font-family: Montserrat, sans-serif;
-  font-size: 1.5rem;
+  font-family: "Heebo", sans-serif;
+  font-size: 1.6rem;
   line-height: 2;
   position: relative;
 
 }
 
 .contact-content h3 {
+  font-size: 1.9rem;
   margin-top: 0px;
   margin-bottom: 6.6rem;
   color: #fff;
-  font-weight: 800;
   letter-spacing: 1px;
-  text-transform: uppercase; 
 }
 
 .contact-content h5 {
@@ -14022,9 +14036,12 @@ textarea {
 .contact-content input[type=password],
 .contact-content textarea,
 .contact-content select {
+  font-size: 1.5rem;
   color: rgba(255, 255, 255, .6);
   border-bottom: 1px solid rgba(255, 255, 255, .07);
-  margin-bottom: .9rem
+  margin-bottom: .9rem;
+  height: 4rem;
+  padding: 0px;
 }
 
 .contact-content input[type=email]:focus,
@@ -14036,9 +14053,10 @@ textarea {
 .contact-content input[type=password]:focus,
 .contact-content textarea:focus,
 .contact-content select:focus {
-  color: #fff;
+  color:  rgba(255, 255, 255, .4);
   border-bottom: 1px solid #d80aaa
 }
+
 
 .contact-content button,
 .contact-content .btn {
@@ -14363,9 +14381,10 @@ button.btn--primary {
 }
 .contact-row{
   margin: 0 auto;
+  background-color: #121212f2;
 }
 .contact-info p a{
-  color:rgba(255, 255, 255, .4);;
+  color:rgba(255, 255, 255, .4);
 }
 
 .partners_logo_area{
@@ -14375,7 +14394,7 @@ button.btn--primary {
 /* .partners_logo_area .main_title {
   padding-bottom: 35px;
 } */
-.partners_logo_area .main_title p,.location .main_title p{
+.partners_logo_area .main_title p,.location .main_title p,.s-contact .main_title p{
   max-width: 700px;
   margin: auto;
   font-size: 15px;
@@ -14384,7 +14403,7 @@ button.btn--primary {
   font-family: "Heebo", sans-serif;
   letter-spacing: .28px;
 }
-.partners_logo_area .main_title h2,.location .main_title h2{
+.partners_logo_area .main_title h2,.location .main_title h2,.s-contact .main_title h2 {
   font-size: 30px;
   color: #121921;
   font-family: "Heebo", sans-serif;
@@ -14393,7 +14412,7 @@ button.btn--primary {
   margin-bottom: 20px;
   text-transform: none;
 }
-.partners_logo_area .main_title h2 .colored,.location .main_title h2 .colored{
+.partners_logo_area .main_title h2 .colored,.location .main_title h2 .colored,.contact-primary .colored{
   color: #d80aaa;
 }
 .owl-dots .owl-dot.active{
@@ -14618,4 +14637,21 @@ summary{
     display: block;
     padding-top: 10%;
 }
+}
+.justify-content-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.partner-list img {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+.partner-list .partnerAnimation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); 
+}
+.partner-titles{
+  margin: 5rem 0;
 }

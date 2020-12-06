@@ -10,7 +10,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title> @yield('title') | Mavensdesk Consultancy Services</title>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <meta name="it services company it services and solutions it services and consulting it services agreement
+    <meta name="It services company it services and solutions it services and consulting it services agreement
         it services and products it services and consulting companies it services and support it services and solutions company it services advertisement a-it software services a tech it services a to z it servicesit services business it services business model
         it & c payment services department it & c payment servicesit services definition d&d it services d services hyderabad d services plumbing e-solutions it services pvt ltd" charset="utf-8">
     <!-- Icon css link -->
@@ -49,7 +49,7 @@
         <div class="pink_footer_wedget_area">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2 col-md-offset-1 col-xs-6">
+                    <div class="col-sm-4 col-xs-6">
                         <aside class="f_widget p_menu_widget">
                             <div class="p_f_w_title">
                                 <h3>Home Pages</h3>
@@ -63,43 +63,43 @@
                             </ul>
                         </aside>
                     </div>
-                    <div class="col-md-2 col-md-offset-1 col-xs-6">
+                    <div class="col-sm-4 col-xs-6">
                         <aside class="f_widget p_support_widget">
                             <div class="p_f_w_title">
-                                <h3>Our support</h3>
+                                <h3>Our Support</h3>
                             </div>
                             <ul>
                                 <li><a href="#">Help & Support</a></li>
-                                <li><a href="#">Getting Started FAQ</a></li>
+                                <li><a href="/faq">Getting Started FAQ</a></li>
                                 <li><a href="#contact">Contact Us</a></li>
                             </ul>
                         </aside>
                     </div>
-                    <div class="col-md-3 col-md-offset-1 col-xs-6">
+                    <div class="col-sm-4 col-xs-6">
                         <aside class="f_widget p_contact_widget">
                             <div class="p_f_w_title">
-                                <h3>Contact information</h3>
+                                <h3>Contact Information</h3>
                             </div>
                             <ul class="contact_info">
-                                <li>For queries :<a href="mailto: info@mavensdesk.com"> info@mavensdesk.com</a></li>
-                                <li>For sales :<a href="mailto: salesindia@mavensdesk.com"> salesindia@mavensdesk.com</a></li>
-                                <li>Address :<a target="_blank" href="https://goo.gl/maps/Q243pigUjVSqNCzM8">
+                                <li>For queries :</li>
+                                <li><a href="mailto: info@mavensdesk.com"> info@mavensdesk.com</a></li>
+                                <li>For sales :</li>
+                                <li><a href="mailto: salesindia@mavensdesk.com"> salesindia@mavensdesk.com</a></li>
+                                <li><a href="mailto: salesindia@mavensdesk.com"> salesindia@mavensdesk.com</a></li>
+                                <li>Address :</li>
+                                <li><a target="_blank" href="https://goo.gl/maps/Q243pigUjVSqNCzM8">
                                         #1604, Kalinganagar-3 Odisha, Bhubaneswar-751003</a>
                                 </li>
                             </ul>
                             <div class="follow-us">
                                 <!-- <h3>Follow US</h3> -->
                                 <ul class="pink_social">
-                                    <li><a target="_blank" href="https://www.facebook.com/themavensdesk/"><i
-                                                class="fa fa-facebook"></i></a> </li>
-                                    <li><a target="_blank" href="https://www.linkedin.com/company/themavensdesk/"><i
-                                                class="fa fa-linkedin"></i></a> </li>
-                                    <li><a target="_blank" href="https://www.instagram.com/themavensdesk/"><i
-                                                class="fa fa-instagram"></i></a> </li>
-                                    <li><a target="_blank" href="https://twitter.com/themavensdesk"><i
-                                                class="fa fa-twitter"></i></a></li>
+                                    <li><a target="_blank" href="https://www.facebook.com/themavensdesk/"><i class="fa fa-facebook"></i></a> </li>
+                                    <li><a target="_blank" href="https://www.linkedin.com/company/themavensdesk/"><i class="fa fa-linkedin"></i></a> </li>
+                                    <li><a target="_blank" href="https://www.instagram.com/themavensdesk/"><i class="fa fa-instagram"></i></a> </li>
+                                    <li><a target="_blank" href="https://twitter.com/themavensdesk"><i class="fa fa-twitter"></i></a></li>
                                 </ul>
-                            </div>    
+                            </div>   
                         </aside>
                     </div>
                     <div class="col-md-2"></div>
