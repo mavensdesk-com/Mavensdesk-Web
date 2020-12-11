@@ -72,6 +72,7 @@
                                 <li><a href="#">Help & Support</a></li>
                                 <li><a href="/faq">Getting Started FAQ</a></li>
                                 <li><a href="#contact">Contact Us</a></li>
+                                <li><a href="/privacy">Privacy Policy</a></li>
                             </ul>
                         </aside>
                     </div>

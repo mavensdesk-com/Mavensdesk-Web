@@ -31,6 +31,7 @@ Route::get('/business_Advisory_services', [App\Http\Controllers\HomeController::
 Route::get('/clienTele', [App\Http\Controllers\HomeController::class, 'clientTele'])->name('clientTele');
 Route::get('/faq', [App\Http\Controllers\HomeController::class, 'faq'])->name('faq');
 Route::get('/myapps', [App\Http\Controllers\HomeController::class, 'myapps'])->name('myapps');
+Route::get('/privacy', [App\Http\Controllers\HomeController::class, 'privacy'])->name('privacy');
 
 Route::get('contact-us', [App\Http\Controllers\ContactController::class, 'contactUS']);
 Route::post('contact-us', [App\Http\Controllers\ContactController::class, 'contactSaveData'])->name('contactus.store');

@@ -82,4 +82,8 @@ class HomeController extends Controller
     {
         return view('myapps');
     }
+    public function privacy()
+    {
+        return view('privacy');
+    }
 }
